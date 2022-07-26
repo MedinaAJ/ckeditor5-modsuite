@@ -40,6 +40,7 @@
     "@ckeditor/ckeditor5-essentials": "^34.2.0",
     "@ckeditor/ckeditor5-font": "^34.2.0",
     "@ckeditor/ckeditor5-heading": "^34.2.0",
+    "@ckeditor/ckeditor5-html-support": "^34.2.0",
     "@ckeditor/ckeditor5-image": "^34.2.0",
     "@ckeditor/ckeditor5-indent": "^34.2.0",
     "@ckeditor/ckeditor5-link": "^34.2.0",
@@ -47,8 +48,10 @@
     "@ckeditor/ckeditor5-media-embed": "^34.2.0",
     "@ckeditor/ckeditor5-paragraph": "^34.2.0",
     "@ckeditor/ckeditor5-paste-from-office": "^34.2.0",
+    "@ckeditor/ckeditor5-source-editing": "^34.2.0",
     "@ckeditor/ckeditor5-table": "^34.2.0",
-    "@ckeditor/ckeditor5-typing": "^34.2.0"
+    "@ckeditor/ckeditor5-typing": "^34.2.0",
+    "sweetalert2": "^11.4.24"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^34.2.0",

@@ -43,6 +43,10 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 
+
+import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
 // Plugins to include in the build.
@@ -82,7 +86,9 @@ DecoupledEditor.builtinPlugins = [
 	PictureEditing,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	GeneralHtmlSupport,
+	SourceEditing
 ];
 
 // Editor configuration.
@@ -114,6 +120,7 @@ DecoupledEditor.defaultConfig = {
 			'uploadImage',
 			'insertTable',
 			'mediaEmbed',
+			'sourceEditing',
 			'|',
 			'undo',
 			'redo'
@@ -145,5 +152,5 @@ DecoupledEditor.defaultConfig = {
 		}
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'es'
 };
